@@ -1,11 +1,10 @@
-
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'safe_random/version'
 
 Gem::Specification.new do |spec|
   spec.name          = 'safe_random'
-  spec.version       = '0.0.2'
+  spec.version       = '0.0.3'
   spec.authors       = ['Rahul Patil']
   spec.email         = ['rahupatil_scs@yahoo.co.in']
   spec.summary       = 'Safe Random'
