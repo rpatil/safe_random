@@ -27,7 +27,8 @@ Try this snippet of code on ruby irb
     puts SafeRandom.string(5)                       # => qycdi
     puts SafeRandom.alphanumeric                    # => PpHPUg1gPnsGD6RNDETsP3DAwm3sGqD3
     puts SafeRandom.alphanumeric(5)                 # => rPtK2
-
+    puts SafeRandom.small_token                     # => 52b2df1c8
+    
 ## Contributing
 
 1. Fork it ( https://github.com/[my-github-username]/safe_random/fork )

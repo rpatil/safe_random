@@ -5,14 +5,14 @@ require 'safe_random/version'
 
 Gem::Specification.new do |spec|
   spec.name          = 'safe_random'
-  spec.version       = '0.0.1'
+  spec.version       = '0.0.2'
   spec.authors       = ['Rahul Patil']
   spec.email         = ['rahupatil_scs@yahoo.co.in']
   spec.summary       = 'Safe Random'
   spec.description   = ''
   spec.homepage      = ''
   spec.license       = 'MIT'
-  spec.date          = '2018-10-29'
+  spec.date          = '2018-11-02'
 
   spec.files         = `git ls-files -z`.split("\x0")
   spec.files = Dir['README.md', 'Gemfile', 'Rakefile', 'spec/*', 'lib/**/*']

@@ -15,4 +15,8 @@ module SafeRandom
     chars = character_set.map { |x| x.is_a?(Range) ? x.to_a : x }.flatten
     Array.new(len) { chars.sample }.join
   end
+
+  def self.small_token
+    Digest::SHA1.hexdigest(string(rand(8..20)))[8..16]
+  end
 end
