@@ -4,12 +4,12 @@ require 'safe_random/version'
 
 Gem::Specification.new do |spec|
   spec.name          = 'safe_random'
-  spec.version       = '0.0.4'
+  spec.version       = '0.0.5'
   spec.authors       = ['Rahul Patil']
   spec.email         = ['rahupatil_scs@yahoo.co.in']
   spec.summary       = 'Safe Random'
-  spec.description   = 'SafeRandom gem will help to generate random string, paragraphs, number and alphanumeric very easily.'
-  spec.homepage      = ''
+  spec.description   = 'SafeRandom gem will help to generate random string, paragraphs, strong string, number and alphanumeric very easily.'
+  spec.homepage      = 'https://github.com/rpatil/safe_random'
   spec.license       = 'MIT'
   spec.date          = '2018-11-06'
 

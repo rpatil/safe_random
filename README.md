@@ -36,6 +36,11 @@ Try this snippet of code on ruby irb
     puts SafeRandom.paragraphs(3)                   # => "Lorem ipsum dolor sit amet  consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. \n\n Who says you have to call just one place home?. Soaring through all the galaxies in search of Earth flying in to the night. \n\n Maybe tomorrow I'll want to settle down - until tomorrow I'll just keep moving on. \n\n"
 
 
+    # => Strong string : Minumum number should be greater than 5 otherwise by default 8 character string.
+    puts SafeRandom.strong_string                   # => 4skgSy93zaCUZZCoF9WiJF4z3IDCGk%Y
+    puts SafeRandom.strong_string(3)                # => P4eUbcK%
+    puts SafeRandom.strong_string(5)                # => 5$Rkdo
+
 ## Contributing
 
 1. Fork it ( https://github.com/[my-github-username]/safe_random/fork )
