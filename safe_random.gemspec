@@ -4,14 +4,14 @@ require 'safe_random/version'
 
 Gem::Specification.new do |spec|
   spec.name          = 'safe_random'
-  spec.version       = '0.0.3'
+  spec.version       = '0.0.4'
   spec.authors       = ['Rahul Patil']
   spec.email         = ['rahupatil_scs@yahoo.co.in']
   spec.summary       = 'Safe Random'
-  spec.description   = ''
+  spec.description   = 'SafeRandom gem will help to generate random string, paragraphs, number and alphanumeric very easily.'
   spec.homepage      = ''
   spec.license       = 'MIT'
-  spec.date          = '2018-11-02'
+  spec.date          = '2018-11-06'
 
   spec.files         = `git ls-files -z`.split("\x0")
   spec.files = Dir['README.md', 'Gemfile', 'Rakefile', 'spec/*', 'lib/**/*']
