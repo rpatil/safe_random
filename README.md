@@ -1,6 +1,6 @@
 # SafeRandom
 
-SafeRandom gem will help to generate random string, number and alphanumeric very easily.
+SafeRandom gem will help to generate random string, paragraphs, token, strong string, number and alphanumeric very easily.
 
 ## Installation
 
@@ -28,6 +28,7 @@ Try this snippet of code on ruby irb
     puts SafeRandom.alphanumeric                    # => PpHPUg1gPnsGD6RNDETsP3DAwm3sGqD3
     puts SafeRandom.alphanumeric(5)                 # => rPtK2
     puts SafeRandom.small_token                     # => 52b2df1c8
+    puts SafeRandom.token                           # => 4c486a1138e
 
     # => Sentences & Paragraphs
     puts SafeRandom.sentences                       # => "Always fighting all the evil forces bringing peace and justice to all."
